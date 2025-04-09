@@ -68,7 +68,7 @@ def clamp_values(vector: Tensor) -> Tensor:
     return vector
 
 
-class BiMultiHeadAttention(nn.Module):
+class BiMultiHeadAttention(nn.Module):  ## 跨模态 text to image
     """Bidirectional fusion Multi-Head Attention layer.
 
     Args:
